@@ -1,0 +1,60 @@
+[{
+  "name": "Brazil",
+  "capital": "Brasília",
+  "subregion": "South America",
+  "population": 206135893,
+  "flag": "https://restcountries.eu/data/bra.svg"
+},
+{
+  "electricity": {
+      "voltage": "230",
+      "frequency": "50",
+      "plugs": [
+          "C",
+          "F"
+      ]
+  },
+  "maps": {
+      "lat": "52.2129919",
+      "long": "5.2793703",
+      "zoom": "7"
+  },
+  "currency": {
+      "name": "Euro",
+      "code": "EUR",
+      "symbol": "&euro;",
+      "rate": "0.836335"
+  },
+  "advise": {
+      "UA": {
+          "advise": "Exercise normal safety precautions",
+          "url": "http://www.smartraveller.gov.au/zw-cgi/view/Advice/Netherlands"
+      },
+      "CA": {
+          "advise": "<!-- START adv-netherlands -->Avoid non-essential travel<!-- END adv-netherlands -->",
+          "url": "http://travel.gc.ca/destinations/netherlands"
+      }
+  },
+  "neighbors": [
+      {
+          "id": "22",
+          "name": "Belgium"
+      },
+      {
+          "id": "128",
+          "name": "Luxembourg"
+      },
+      {
+          "id": "83",
+          "name": "Germany"
+      },
+      {
+          "id": "216",
+          "name": "Switzerland"
+      },
+      {
+          "id": "76",
+          "name": "France"
+      }
+  ]
+}]
