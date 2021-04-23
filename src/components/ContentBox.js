@@ -5,7 +5,6 @@ import Box404 from './Box404';
 import Spinner from './Spinner';
 
 const ContentBox = ({ countryInfo, travelInfo }) => {
-  console.log(travelInfo);
   if (!countryInfo && !travelInfo) {
     return (
       <div>

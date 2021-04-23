@@ -31,7 +31,6 @@ const Home = () => {
       const travelJson = travelInfoController(data);
 
       setTravelInfo(travelJson);
-      console.log(travelJson);
     };
     const fetchCountries = async () => {
       const { data } = await axios(
@@ -40,7 +39,6 @@ const Home = () => {
       const countryJson = countryInfoController(data);
 
       setCountryInfo(countryJson);
-      console.log(countryJson);
     };
 
     try {
@@ -51,8 +49,6 @@ const Home = () => {
       console.log(error);
     }
   }, [query]);
-
-  console.log(query);
 
   return (
     <Container>
