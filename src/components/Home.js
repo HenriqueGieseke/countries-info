@@ -34,7 +34,7 @@ const Home = () => {
     };
     const fetchCountries = async () => {
       const { data } = await axios(
-        `https://restcountries.eu/rest/v2/name/${query}`
+        `https://restcountries.com/v2/name/${query}`
       );
       const countryJson = countryInfoController(data);
 
