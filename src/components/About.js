@@ -15,7 +15,7 @@ const About = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://restcountries.eu/#rest-countries"
+            href="https://restcountries.com/"
           >
             REST Countries
           </a>
